@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node_modules/.bin/nodemon mocha --ui bdd  test.js --exec babel-node --",
+    "test": "node_modules/mocha/bin/mocha",
     "start": "node_modules/.bin/nodemon app.js --exec babel-node --"
   },
   "author": "Puja",
